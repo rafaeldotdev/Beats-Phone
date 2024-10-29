@@ -1,0 +1,17 @@
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - 2rem * 2);
+  margin-inline: auto;
+}
+
+@media (width>=20em) {
+  .container {
+    --max-width: 100%;
+  }
+}
+
+@media (width>=80em) {
+  .container {
+    --max-width: 80rem;
+  }
+}

@@ -1,0 +1,26 @@
+.desktop-only {
+  display: none;
+}
+
+.specs-desktop-only {
+  display: none;
+}
+
+@media (width>=48.5rem) {
+  .specs-desktop-only {
+    display: initial;
+  }
+}
+section + section {
+  margin-top: 10rem;
+}
+
+section + footer {
+  margin-top: 12rem;
+}
+
+@media (width>=62.5rem) {
+  .desktop-only {
+    display: initial;
+  }
+}
